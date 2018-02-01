@@ -1,0 +1,10 @@
+git clone --recursive <https://github.com/subahtahsin/HW0.1.git>
+git checkout -b HW0.1
+
+g++ helloworld.cpp
+./a.out
+
+git add HW0.0 HW0.1
+git commit -m "created a file"
+
+git push origin HW0.1
